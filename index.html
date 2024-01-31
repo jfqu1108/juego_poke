@@ -6,14 +6,14 @@
     <title>Pokemon</title>
 </head>
 <body>
-    <section id="seleccionar-mascota">
+    <section id="seleccionar-mascota"> <!-- section la seccion de crear las mascotas sus nombres y tarjetas-->
         <h1 class="titulo">Pokemon</h1>
 
         <h2 class="subtitulo">Elige tu mascota:</h2>
 
         <div class="tarjetas">
-            <input type="radio" name="mascota" id="Flareon" />
-            <label class="tarjeta-de-mokepon" for="Flareon">
+            <input type="radio" name="mascota" id="Flareon" /> <!-- el input es para la seleccion de la mascota-->
+            <label class="tarjeta-de-mokepon" for="Flareon"> <!-- label sirve para que con JS con dar click a la tajeta de la mascota quede seleccionada-->
                 <p>Flareon</p>
                 <img src="./img/flareon.png" alt="Flareon">
             </label>
@@ -33,6 +33,23 @@
 
         <button id="boton-mascota">Seleccionar</button>
     </section>
+
+    
+    <section id="seleccionar-ataque">
+        <h1 class="titulo">Pokemon</h1>
+
+        <h2 class="subtitulo">Elige tu ataque:</h2>
+
+        <div class="tarjetas-ataques">
+            <button id="boton-fuego" class="boton-de-ataque">Fuego 🔥</button>
+            <button id="boton-agua" class="boton-de-ataque">Agua 💧</button>
+            <button id="boton-tierra" class="boton-de-ataque">Tierra 🌱</button>
+        </div>
+
+        <button id="boton-ataque">Seleccionar</button>
+    </section>
+
+
     
 </body>
 </html>
